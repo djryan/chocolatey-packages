@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'springtoolstuite.tool' 'springtoolstuite.app'
