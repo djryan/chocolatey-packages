@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>springtoolstuite.app</id>
-    <title>SPRING TOOL SUITE - BASED ON ECLIPSE  (Application Install)</title>
+    <id>springtoolstuite</id>
+    <title>SPRING TOOL SUITE - BASED ON ECLIPSE</title>
     <version>3.1.0</version>
     <authors>Alexander Bätz</authors>
     <owners>Alexander Bätz</owners>
@@ -15,11 +15,10 @@ STS supports application targeting to local, virtual and cloud-based servers. It
     <projectUrl>http://www.springsource.org/sts</projectUrl>
     <tags>java eclipse spring ide admin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/springtoolstuite/springtoolstuite.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/springtoolstuite/springtoolstuite.gif</iconUrl>
+    <!-- <dependencies>
+      <dependency id="java.jdk" />
+    </dependencies> -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

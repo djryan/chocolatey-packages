@@ -1,8 +1,8 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
 $packageName = 'springtoolstuite.tool' # arbitrary name for the package, used in messages
-$url = 'URL_HERE/.zip/.7z' # download url
-$url64 = $url # 64bit URL here or just use the same as $url
+$url = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32.zip' # download url
+$url64 = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32-x86_64.zip' # 64bit URL here or just use the same as $url
 
 try { 
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
