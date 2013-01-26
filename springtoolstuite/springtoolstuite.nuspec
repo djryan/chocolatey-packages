@@ -4,7 +4,7 @@
     <id>springtoolstuite</id>
     <title>SPRING TOOL SUITE - BASED ON ECLIPSE</title>
     <version>3.1.0</version>
-    <authors>Alexander Bätz</authors>
+    <authors>springsource</authors>
     <owners>Alexander Bätz</owners>
     <summary>springtoolstuite</summary>
     <description>The Spring Tool Suite™ (STS) provides the best Eclipse-powered development environment for building Spring-powered enterprise applications. STS supplies tools for all of the latest enterprise Java and Spring, and comes on top of the latest Eclipse releases.
