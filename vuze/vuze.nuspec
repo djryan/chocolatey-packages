@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vuze</id>
+    <title>vuze</title>
+    <version>__REPLACE__</version>
+    <authors>Azureus Software</authors>
+    <owners>Alexander Bätz</owners>
+    <summary>vuze</summary>
+    <description>Vuze (previously Azureus) is a BitTorrent client that is written in Java, and uses the Azureus Engine. In addition to downloading data linked to .torrent files, Azureus allows users to view, publish and share original DVD and HD quality video content. Content is presented through channels and categories containing TV shows, music videos, movies, video games and others.</description>
+    <projectUrl>http://www.vuze.com/</projectUrl>
+    <tags>vuze torrent admin</tags>
+    <licenseUrl>http://www.vuze.com/corp/terms.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/vuze/vuze.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
