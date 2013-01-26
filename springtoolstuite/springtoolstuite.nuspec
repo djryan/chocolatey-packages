@@ -15,7 +15,7 @@ STS supports application targeting to local, virtual and cloud-based servers. It
     <projectUrl>http://www.springsource.org/sts</projectUrl>
     <tags>java eclipse spring ide admin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/springtoolstuite/springtoolstuite.gif</iconUrl>
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/springtoolstuite/springtoolsuite.png</iconUrl>
     <!-- <dependencies>
       <dependency id="java.jdk" />
     </dependencies> -->
