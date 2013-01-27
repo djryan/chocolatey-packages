@@ -1,10 +1,10 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
-$packageName = 'teamspeak3' # arbitrary name for the package, used in messages
-$installerType = 'EXE_OR_MSI' #only one of these two: exe or msi
-$url = 'http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.9.2/TeamSpeak3-Client-win32-3.0.9.2.exe' # download url
-$url64 = 'http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.9.2/TeamSpeak3-Client-win64-3.0.9.2.exe' # 64bit URL here or just use the same as $url
-$silentArgs = '/S' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is always /quiet
+$packageName = 'ragssuite' # arbitrary name for the package, used in messages
+$installerType = 'MSI' #only one of these two: exe or msi
+$url = 'http://www.ragsgame.com/Downloads/RagsSetup.2.4.msi' # download url
+$url64 = $url # 64bit URL here or just use the same as $url
+$silentArgs = '' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is always /quiet
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 # main helpers - these have error handling tucked into them already

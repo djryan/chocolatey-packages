@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ragssuite</id>
+    <title>Rags Game Development Suite</title>
+    <version>2.4</version>
+    <authors>Rags Game</authors>
+    <owners>Alexander Bätz</owners>
+    <description>The R.A.G.S. system is a flexible and powerful tool designed to allow you to quickly and easily create fun, exciting games and distribute them to your players. If you ever wanted to create an interactive world quickly and easily, this is the system for you. Rags is a new style of interactive fiction gaming.
+
+R.A.G.S. has been designed from the ground up to quickly and easily get your ideas into a playable format. With an integrated picture and object library, you can upload your game pictures once and never hunt for them again. You will always have your game objects list close at hand and available. R.A.G.S. makes game creation quick and easy, plus it provides the flexibility to create intricate puzzles and challenges for your players.
+</description>
+    <projectUrl>http://www.ragsgame.com</projectUrl>
+    <tags>ragssuite game framework admin</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/ragssuite/ragssuite.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
