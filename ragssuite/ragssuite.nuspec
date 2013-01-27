@@ -13,7 +13,7 @@ R.A.G.S. has been designed from the ground up to quickly and easily get your ide
     <projectUrl>http://www.ragsgame.com</projectUrl>
     <tags>ragssuite game framework admin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/ragssuite/ragssuite.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/ragssuite/ragssuite.jpg</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
