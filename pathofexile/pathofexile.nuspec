@@ -12,7 +12,7 @@
     <copyright>2010 - 2012</copyright>
     <licenseUrl>http://www.pathofexile.com/legal/terms-of-use-and-privacy-policy</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/pathofexile/pathofexile.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/pathofexile/pathofexile.png</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
