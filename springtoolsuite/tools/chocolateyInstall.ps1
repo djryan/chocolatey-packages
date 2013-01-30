@@ -1,10 +1,10 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
-$packageName = 'springtoolstuite.tool' # arbitrary name for the package, used in messages
+$packageName = 'springtoolsuite' # arbitrary name for the package, used in messages
 $url = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32.zip' # download url
 $url64 = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32-x86_64.zip' # 64bit URL here or just use the same as $url
 
-try { 
+#try { 
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
   ### For BinRoot, use the following instead ###
   #$binRoot = "$env:systemdrive\tools"
@@ -29,8 +29,8 @@ try {
 
   # Start-Process "7za" -ArgumentList "x -o`"$installDir`" -y `"$file`"" -Wait
 
-  Write-ChocolateySuccess "$packageName"
-} catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
-}
+#  Write-ChocolateySuccess "$packageName"
+#} catch {
+#  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
+#  throw 
+#}
