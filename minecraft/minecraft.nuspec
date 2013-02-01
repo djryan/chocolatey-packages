@@ -3,7 +3,7 @@
   <metadata>
     <id>minecraft</id>
     <title>Minecraft</title>
-    <version>1</version>
+    <version>1.0</version>
     <authors>Mojang</authors>
     <owners>Alexander Bätz</owners>
     <description>Minecraft is a game about breaking and placing blocks. At first, people built structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things.
@@ -14,7 +14,7 @@ It can also be about adventuring with friends or watching the sun rise over a bl
     <copyright>Mojang © 2009-2012</copyright>
     <licenseUrl>https://minecraft.net/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/minecraft/minecraft.png</iconUrl>-->
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/minecraft/minecraft.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
