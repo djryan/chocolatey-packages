@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ComicRack</id>
+    <title>ComicRack</title>
+    <version>0.9.161</version>
+    <authors>cYo Soft</authors>
+    <owners>Alexander Bätz</owners>
+    <summary>ComicRack is the best eComic reader and manager for Windows computers.</summary>
+    <description>ComicRack is the best eComic reader and manager for Windows computers. It is an all-in-one solution to read and manage your eComic library. It is actively maintained, has a strong user base and is FREE.</description>
+    <projectUrl>http://comicrack.cyolito.com</projectUrl>
+    <tags>comicrack reader comic admin</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/comicrack/comicrack.jpeg</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
