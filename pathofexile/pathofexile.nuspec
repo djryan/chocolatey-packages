@@ -3,12 +3,12 @@
   <metadata>
     <id>pathofexile</id>
     <title>Path of Exile</title>
-    <version>1.Beta</version>
+    <version>1.0</version>
     <authors>Grinding Gear Games</authors>
     <owners>Alexander Bätz</owners>
-    <description>Path of Exile is an online Action RPG set in the dark fantasy world of Wraeclast. We're a small independent team of hardcore gamers based in New Zealand and have created Path of Exile as the game that we'd want to play ourselves. It is designed around a strong barter-based online item economy, deep character customisation, competitive PvP and ladder races. The game is completely free and will never be "pay to win".</description>
+    <description>Path of Exile is an online Action RPG set in the dark fantasy world of Wraeclast. Grinding Gear is a small independent team of hardcore gamers based in New Zealand and have created Path of Exile as the game that they would want to play themselfs. It is designed around a strong barter-based online item economy, deep character customisation, competitive PvP and ladder races. The game is completely free and will never be "pay to win".</description>
     <projectUrl>http://www.pathofexile.com/</projectUrl>
-    <tags>pathofexile game mmorpg admin</tags>
+    <tags>pathofexile games mmorpg admin</tags>
     <copyright>2010 - 2012</copyright>
     <licenseUrl>http://www.pathofexile.com/legal/terms-of-use-and-privacy-policy</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

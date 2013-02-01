@@ -1,0 +1,15 @@
+#install4j response file for Vuze 4.8.1.2
+#Fri Feb 01 18:22:06 CET 2013
+sys.adminRights$Boolean=true
+CONDUIT_ALLOW_REVERT$Boolean=false
+CONDUIT_ACCEPTED$Boolean=false
+createDesktopLinkAction$Boolean=true
+doClearConfig$Boolean=false
+#sys.languageId=de
+#sys.installationDir=C\:\\Program Files\\Vuze
+CONDUIT_DEFAULT_SEARCH$Boolean=false
+TERMS_ACCEPTED$Boolean=true
+UIMODE$Integer=0
+createQuicklaunchIconAction$Boolean=true
+CONDUIT_DEFAULT_START$Boolean=false
+createTorrentFileAssoc$Boolean=true
