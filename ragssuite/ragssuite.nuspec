@@ -6,14 +6,15 @@
     <version>2.4</version>
     <authors>Rags Game</authors>
     <owners>Alexander Bätz</owners>
+	<summary>A flexible system for exciting games.</summary>
     <description>The R.A.G.S. system is a flexible and powerful tool designed to allow you to quickly and easily create fun, exciting games and distribute them to your players. If you ever wanted to create an interactive world quickly and easily, this is the system for you. Rags is a new style of interactive fiction gaming.
 
 R.A.G.S. has been designed from the ground up to quickly and easily get your ideas into a playable format. With an integrated picture and object library, you can upload your game pictures once and never hunt for them again. You will always have your game objects list close at hand and available. R.A.G.S. makes game creation quick and easy, plus it provides the flexibility to create intricate puzzles and challenges for your players.
 </description>
     <projectUrl>http://www.ragsgame.com</projectUrl>
-    <tags>ragssuite game framework admin</tags>
+    <tags>ragssuite games framework admin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/ragssuite/ragssuite.jpg</iconUrl>-->
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/ragssuite/ragssuite.jpg</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
