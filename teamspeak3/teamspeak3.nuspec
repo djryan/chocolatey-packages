@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>teamspeak3</id>
+    <id>Teamspeak3</id>
     <title>TeamSpeak 3</title>
     <version>3.0.9.2</version>
     <authors>teamspeak</authors>
     <owners>Alexander Bätz</owners>
+	<summary>TeamSpeak is software for quality voice communication via the Internet</summary>
     <description>TeamSpeak is proprietary voice-over-Internet Protocol (VoIP) software that allows computer users to speak on a chat channel with fellow computer users, much like a telephone conference call. Users use the TeamSpeak client software to connect to a TeamSpeak server of their choice, from there they can join chat channels and discuss things.</description>
     <projectUrl>http://www.teamspeak.com</projectUrl>
     <tags>teamspeak3 voip admin</tags>
