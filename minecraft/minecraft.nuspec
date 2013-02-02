@@ -15,9 +15,9 @@ It can also be about adventuring with friends or watching the sun rise over a bl
     <licenseUrl>https://minecraft.net/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/minecraft/minecraft.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+          <dependency id="javaruntime" />
+    </dependencies>
     </metadata>
   <files>
     <file src="tools\**" target="tools" />
