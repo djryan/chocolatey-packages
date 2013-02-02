@@ -3,7 +3,7 @@
   <metadata>
     <id>minecraft</id>
     <title>Minecraft</title>
-    <version>1.0</version>
+    <version>1.1</version>
     <authors>Mojang</authors>
     <owners>Alexander Bätz</owners>
     <description>Minecraft is a game about breaking and placing blocks. At first, people built structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things.
@@ -18,6 +18,7 @@ It can also be about adventuring with friends or watching the sun rise over a bl
     <dependencies>
           <dependency id="javaruntime" />
     </dependencies>
+	<releaseNotes>Added dependency to Java Runtime as it is not part of the Minecraft executable</releaseNotes>
     </metadata>
   <files>
     <file src="tools\**" target="tools" />
