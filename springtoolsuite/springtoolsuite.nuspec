@@ -19,6 +19,9 @@ STS supports application targeting to local, virtual and cloud-based servers. It
     <!-- <dependencies>
       <dependency id="java.jdk" />
     </dependencies> -->
+	<dependencies>
+      <dependency id="7zip.commandline" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
