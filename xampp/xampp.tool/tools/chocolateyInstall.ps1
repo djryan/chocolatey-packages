@@ -1,6 +1,6 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
-$packageName = 'XAMP.tool' # arbitrary name for the package, used in messages
+$packageName = 'XAMPP.tool' # arbitrary name for the package, used in messages
 $url = 'http://www.apachefriends.org/download.php?xampp-win32-1.8.1-VC9.zip' # download url
 $url64 = $url # 64bit URL here or just use the same as $url
 

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>XAMP.app</id>
-    <title>XAMP (Application Install)</title>
+    <id>XAMPP.app</id>
+    <title>XAMPP (Application Install)</title>
     <version>1.8.1</version>
     <authors>apachefriends</authors>
     <owners>Alexander Bätz</owners>
@@ -11,11 +11,11 @@
 
 XAMPP is an easy to install Apache distribution containing MySQL, PHP and Perl. XAMPP is really very easy to install and to use - just download, extract and start.</description>
     <projectUrl>http://www.apachefriends.org/en/xampp.html</projectUrl>
-    <tags>server stack xamp apache2 php pearl mysql admin</tags>
+    <tags>server stack xampp apache2 php pearl mysql admin</tags>
     <copyright>2002-2013 Apache Friends</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/xamp/xamp.png</iconUrl>
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/xamp/xampp.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

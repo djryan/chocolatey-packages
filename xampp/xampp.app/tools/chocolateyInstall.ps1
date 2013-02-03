@@ -1,6 +1,6 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
-$packageName = 'xamp.app' # arbitrary name for the package, used in messages
+$packageName = 'XAMPP.app' # arbitrary name for the package, used in messages
 $installerType = 'exe' #only one of these two: exe or msi
 $url = 'http://www.apachefriends.org/download.php?xampp-win32-1.8.1-VC9-installer.exe' # download url
 $url64 = $url # 64bit URL here or just use the same as $url
