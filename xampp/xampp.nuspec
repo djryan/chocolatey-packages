@@ -15,7 +15,7 @@ XAMPP is an easy to install Apache distribution containing MySQL, PHP and Perl. 
     <copyright>2002-2013 Apache Friends</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/xamp/xampp.png</iconUrl>
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/xampp/xampp.png</iconUrl>
     <dependencies>
       <dependency id="XAMPP.app" version="[1.8.1]" />
     </dependencies>
