@@ -10,8 +10,6 @@ try {
   $stsFile = Join-Path $stsDir "STS.exe"
   $vFabricDir = Join-Path $installDir "vfabric-tc-server-developer-2.7.2.RELEASE"
   
-  #if (![System.IO.Directory]::Exists($installDir)) {[System.IO.Directory]::CreateDirectory($installDir)}
-
   $tempDir = "$env:TEMP\chocolatey\$($packageName)"
   if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 
