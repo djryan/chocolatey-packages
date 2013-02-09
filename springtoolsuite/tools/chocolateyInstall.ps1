@@ -1,4 +1,4 @@
-﻿$packageName = 'springtoolsuite'
+﻿$packageName = 'SprintToolSuite'
 $url = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32.zip'
 $url64 = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32-x86_64.zip'
 
@@ -9,6 +9,7 @@ try {
   $stsDir = Join-Path $installDir "sts-3.1.0.RELEASE"
   $stsFile = Join-Path $stsDir "STS.exe"
   $vFabricDir = Join-Path $installDir "vfabric-tc-server-developer-2.7.2.RELEASE"
+  $rooDir = Join-Path $installDir "spring-roo-1.2.2.RELEASE\bin"
   
   $tempDir = "$env:TEMP\chocolatey\$($packageName)"
   if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
@@ -20,6 +21,7 @@ try {
 
   #Install-ChocolateyPath "$stsDir"
   Install-ChocolateyPath "$vFabricDir"
+  Install-ChocolateyPath "$rooDir"
 
   Install-ChocolateyDesktopLink $stsFile
   
