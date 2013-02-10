@@ -1,4 +1,4 @@
-﻿$packageName = 'SprintToolSuite'
+﻿$packageName = 'SpringToolSuite'
 $url = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32.zip'
 $url64 = 'http://dist.springsource.com/release/STS/3.1.0/dist/e4.2/spring-tool-suite-3.1.0.RELEASE-e4.2-win32-x86_64.zip'
 
@@ -24,6 +24,8 @@ try {
   Install-ChocolateyPath "$rooDir"
 
   Install-ChocolateyDesktopLink $stsFile
+
+# configure home to something sensible
   
   Write-ChocolateySuccess "$packageName"
 } catch {
