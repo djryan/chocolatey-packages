@@ -25,7 +25,8 @@ try {
 
   Install-ChocolateyDesktopLink $stsFile
 
-# configure home to something sensible
+  $home = Join-Path [environment]::getfolderpath("mydocuments") "Repositories"  
+  if($env:HOME -eq $null){Install-ChocolateyEnvironmentVariable "HOME" $home }
   
   Write-ChocolateySuccess "$packageName"
 } catch {
