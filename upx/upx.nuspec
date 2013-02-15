@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>UPX</id>
+    <title>UPX - Ultimate Packer for eXecutables</title>
+    <version>3.08</version>
+    <authors>Markus F.X.J. Oberhumer, László Molnár, John F. Reiser.</authors>
+    <owners>Alexander Bätz</owners>
+    <summary>UPX is a free, portable, extendable, high-performance executable packer for several executable formats.</summary>
+    <description>UPX achieves an excellent compression ratio and offers very fast decompression. Your executables suffer no memory overhead or other drawbacks for most of the formats supported, because of in-place decompression.</description>
+    <projectUrl>http://upx.sourceforge.net/</projectUrl>
+    <tags>UPX admin</tags>
+    <copyright>Copyright 1996-2011, GPLv2+, Markus F.X.J. Oberhumer, László Molnár & John F. Reiser.</copyright>
+    <licenseUrl>http://upx.sourceforge.net/upx-license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/upx/upx.gif</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
