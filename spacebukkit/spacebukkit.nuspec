@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SpaceBukkit</id>
+    <title>SpaceBukkit</title>
+    <version>1.9</version>
+    <authors>xereo.net</authors>
+    <owners>Alexander Bätz</owners>
+    <summary>Manage all your bukkit servers in one place, switch easily between them, and assign different people to different servers.</summary>
+    <description>SpaceBukkit is an advanced and completely free open-source administration panel for bukkit servers. It will make all those repetitive tasks like player and plugin management, backups and server tasks fun and easy, so you can start playing minecraft again :D. What are you waiting for? SpaceBukkit is the most advanced panel for bukkit servers, after all!</description>
+    <projectUrl>http://spacebukkit.xereo.net/</projectUrl>
+    <tags>spacebukkit minecraft server admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by-nc-sa/3.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<dependencies>
+      <dependency id="xampp" />
+	  <dependency id="7zip.commandline" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
