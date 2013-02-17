@@ -16,6 +16,7 @@
 	<dependencies>
       <dependency id="xampp" />
 	  <dependency id="7zip.commandline" />
+	  <dependency id="bukkit" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
