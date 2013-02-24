@@ -10,6 +10,10 @@ try {
   $binRoot = "$env:systemdrive\"
   if($env:chocolatey_bin_root -ne $null){$binRoot = join-path $env:systemdrive $env:chocolatey_bin_root}
   
+  $httpdConfFile = Join-Path $binRoot "/xampp/apache/conf/httpd.conf"
+  if (![System.IO.File]::Exists($httpdConfFile)) {Write-ChocolateyFailure "can not find httpd.conf of apache"}
+  
+  
   $tempDir = "$env:TEMP\chocolatey\$($packageName)"
   if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
   
@@ -35,13 +39,30 @@ try {
   #$target = Join-Path $MyInvocation.MyCommand.Definition "$($packageName).exe"
   #Install-ChocolateyDesktopLink $target
   
-  # STEP 2: get pannels
-  $pannelFile = Join-Path $tempDir "$($packageName)Panels.zip"
-  Get-ChocolateyWebFile "$packageName" "$pannelFile" "$spaceBukkitPanelsUrl"
-  Get-ChocolateyUnzip "pannelFile" "$installDir"
+  # STEP 2: get pannels (direct download of stable master branch)
+  $panelFile = Join-Path $tempDir "$($packageName)Panels.zip"
+  Get-ChocolateyWebFile "$packageName" "$panelFile" "$spaceBukkitPanelsUrl"
+  Get-ChocolateyUnzip "panelFile" "$installDir"
+  
+  # result
+  $panelDir = Join-Path $installDir "SpaceBukkitPanel-master"
   
   # STEP 3: configure xampp
-    
+  
+  # enable curl - curl is active by default
+  # enable rewrite - mod_rewrite is active by default
+  # enable alias - alias is active by default
+  # add alias - add following block to httpd.conf
+  
+  #<Directory "$panelDir"="">
+  #  Options Indexes FollowSymLinks Includes ExecCGI
+  #  AllowOverride All
+  #  Order allow,deny
+  #  Allow from all
+  #</Directory>
+  #Alias /spacebukkit "$panelDir"
+  
+  # STEP 3: restart appache and open web based installation
   
   Write-ChocolateySuccess "$packageName"
 } catch {
