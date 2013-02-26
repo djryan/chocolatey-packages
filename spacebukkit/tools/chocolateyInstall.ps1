@@ -54,15 +54,15 @@ try {
   # enable alias - alias is active by default
   # add alias - add following block to httpd.conf
   
-  #<Directory "$panelDir"="">
-  #  Options Indexes FollowSymLinks Includes ExecCGI
-  #  AllowOverride All
-  #  Order allow,deny
-  #  Allow from all
-  #</Directory>
-  #Alias /spacebukkit "$panelDir"
+  # Add-Content c:\sample.txt "`r`n<Directory `"$panelDir`"=`"`">
+  # `r`n  Options Indexes FollowSymLinks Includes ExecCGI
+  # `r`n  AllowOverride All
+  # `r`n  Order allow,deny
+  # `r`n  Allow from all
+  # `r`n</Directory>
+  # `r`nAlias /spacebukkit `"$panelDir`""
   
-  # STEP 3: restart appache and open web based installation
+  # STEP 4: restart appache and open web based installation
   
   Write-ChocolateySuccess "$packageName"
 } catch {
