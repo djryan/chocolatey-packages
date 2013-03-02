@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>RazerSynapse</id>
+    <title>RazerSynapse</title>
+    <version>2.1</version>
+    <authors>Razer</authors>
+    <owners>Alexander Bätz</owners>
+    <summary>With Razer Synapse, your gaming preferences will be locked and loaded anywhere in the world. It's the first cloud-based setting network for gamers.</summary>
+    <description>Synapse 2.0 is a groundbreaking application that instantly stores your custom settings and Razer add-ons online in the cloud and lets you retrieve them at will from any location. It completely eliminates the painstaking reconfiguration process and lets you spend more time dominating the competition. New PC? No problem. Trip to the lan center? One sync and you're ready to go.</description>
+    <projectUrl>http://www.razerzone.com/software-support</projectUrl>
+    <tags>RazerSynapse peripherals admin</tags>
+    <copyright>Copyright © 2013 Razer Inc. All rights reserved</copyright>
+    <licenseUrl>http://www.razerzone.com/terms-conditions</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/Laures/chocolatey-packages/raw/master/RazerSynapse/RazerSynapse.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
