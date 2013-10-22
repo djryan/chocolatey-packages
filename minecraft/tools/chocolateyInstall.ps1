@@ -1,5 +1,5 @@
 ﻿$packageName = 'minecraft'
-$url = 'https://s3.amazonaws.com/MinecraftDownload/launcher/Minecraft.exe'
+$url = 'https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.exe'
 $url64 = $url
 
 try {
