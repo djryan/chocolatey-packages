@@ -1,28 +1,24 @@
-﻿<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>XAMPP.app</id>
-    <title>XAMPP (Application Install)</title>
-    <version>1.8.1</version>
-    <authors>apachefriends</authors>
-    <owners>Alexander Bätz</owners>
-    <summary>A free and open source web server stack, consisting of Apache, MySQL, PHP and Perl.</summary>
-    <description>Many people know from their own experience that it's not easy to install an Apache web server and it gets harder if you want to add MySQL, PHP and Perl.
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>XAMPP.app</id>
+        <version>1.8.3</version>
+        <title>XAMPP (Application Install)</title>
+        <authors>apachefriends</authors>
+        <owners>Alexander Bätz</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+        <projectUrl>http://www.apachefriends.org/en/xampp.html</projectUrl>
+        <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/xamp/xampp.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Many people know from their own experience that it's not easy to install an Apache web server and it gets harder if you want to add MySQL, PHP and Perl.
 
 XAMPP is an easy to install Apache distribution containing MySQL, PHP and Perl. XAMPP is really very easy to install and to use - just download, extract and start.</description>
-    <projectUrl>http://www.apachefriends.org/en/xampp.html</projectUrl>
-    <tags>server stack xampp apache2 php pearl mysql admin</tags>
-    <copyright>2002-2013 Apache Friends</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/Laures/chocolatey-packages/master/xampp/xampp.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-    <!--<file src="content\**" target="content" />-->
-  </files>
+        <summary>A free and open source web server stack, consisting of Apache, MySQL, PHP and Perl.</summary>
+        <releaseNotes />
+        <copyright>2002-2013 Apache Friends</copyright>
+        <tags>server stack xampp apache2 php perl mysql admin</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
 </package>
