@@ -1,4 +1,4 @@
-Chocolatey Automatic Packages
+Chocolatey Automatic Packages [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Laures/chocolatey-packages/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 =============================================  
 ### Templated packages used in an automated update scenario
 ##INFO
