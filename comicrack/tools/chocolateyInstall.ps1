@@ -1,6 +1,6 @@
 ﻿$packageName = 'comicrack'
 $installerType = 'exe'
-$url = 'http://comicrack.cyolito.com/downloads/comicrack/func-startdown/111/'
+$url = 'http://comicrack.cyolito.com/files/comicrack/ComicRackSetup09177.exe'
 $url64 = $url 
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
